@@ -1,0 +1,26 @@
+
+for i in range (20):
+  print (i)
+
+for item in range (fim):
+	comando
+#le-se: para cada item até 20 imprima-os
+
+for i in range (10, 20):
+  print (i)
+  
+for item in range (ini, fim):
+	comando
+#le-se: para cada item de 10 a 20, imprima-os
+
+
+for i in range (10, 20, 2):
+  print (i)
+  
+for item in range (ini, fim, passo):
+	comando
+#le-se: para cada item de 10 a 20, imprima-os de 2 em 2 - imprimindo: 10, 12, 14, 16, 18
+
+
+#Obs: o fim nunca é executado, sempre é o limite para o teste do comando. 
+#podemos dizer então que comando for percorre uma lista e o comando range a delimita de acordo com seu interesse.
